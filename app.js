@@ -83,11 +83,11 @@ for (var i = 0; i <= 10; i++) {
 //The for loop will iterate from 0 to 20, but should stop at 18 then continue
 
 
-for (var i = 0; i <= 20; i++) {
-  if (i % 2 === 0) {
-    console.log(i + " is even");
+for (var j = 0; j <= 20; j++) {
+  if (j % 2 === 0) {
+    console.log(j + " is even");
   } else {
-    console.log(i + " is odd");
+    console.log(j + " is odd");
   }
 }
 //#8: The next block of code hides one-two  logical error. Run the code as-is to find the mistakes.
@@ -101,11 +101,11 @@ while (a > b) {
 
 //#9: The next block of code hides two syntax errors. Run the code as-is to find the mistakes.
 let text = "";
-let i = 0;
+let l = 0;
 do {
-  text += i + "<br>";
+  text += l + "<br>";
   i++;
-} while (i < 5);
+} while (l < 5);
 
 
 //#10: The next block of code hides three  logical error. Run the code as-is to find the mistakes.
